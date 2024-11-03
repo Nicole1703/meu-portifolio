@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mouse Memoirs", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("CEF29F\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.tituloh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 3%;
+    margin-right: 20%;
+    
+}
+
+#barrah {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 50px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+    gap: 1%;
+
+}
+
+#barrah a {
+    text-decoration: none;
+    color: black;
+
+}
+#barrah a {
+    font-size: 20px;
+}
+
+#formatath {
+    font-size: 60px;
+}
+
+#btncamareloh{
+    background-color: palegoldenrod;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+}
+#btncazulh{
+    background-color: rgb(188, 238, 221);
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+}
+#btncverdeh{
+    background-color: lightgreen;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+
+}
+#btncrosah{
+    background-color: pink;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+
+}
+#barra1h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    position: relative;
+    top: 50px;
+   
+
+
+}
+
+#barra2h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    position: relative;
+    top:50px;
+}
+
+#quadrado1h {
+    background-color: rgba(217, 182, 182, 1);
+    width: 300px;
+    height: 200px;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+
+}
+
+#quadrado2h {
+    background-color: rgba(217, 182, 182, 1);
+    width: 300px;
+    height: 200px;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+
+}
+
+#quadrado3h {
+    background-color: rgba(217, 182, 182, 1);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+
+
+}
+
+#quadrado4h {
+    background-color: rgba(217, 182, 182, 1);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+
+
+}
+
+#quadradobranco1 {
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    top: 20%;
+    height: 50px;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#quadradobranco2 {
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    top: 20%;
+    height: 60px;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+
+#quadradobranco3 {
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    top: 20%;
+    height: 40px;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+
+#quadradobranco4 {
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    top: 20%;
+    height: 60px;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+
+.porcentagem1 {
+   display: flex;
+   gap: 20px;
+ 
+}
+#p1234{
+    background-color: lightgreen;
+    width: 100px;
+    border-radius: 80px;
+    text-align: center;
+    font-weight: 1000;
+
+}
+#p1234amarelo{
+    background-color:palegoldenrod;
+    width: 100px;
+    border-radius: 80px;
+    text-align: center;
+    font-weight: 1000;
+}
+#p21234{
+   text-align: center;
+   font-weight: 500;
+   font-size: 30px;
+}
+
+@media(max-width: 786px){
+    .divtudoh{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 375px) {
+    body {
+        background-image: url("iPhone\ SE\ -\ 9\ \(1\).png");
+        background-size: cover;
+    }
+}
+.darkmode{
+    background-image: url(CEF29F\ \(14\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.darkmode  #formatath{
+    
+    color: white;
+}
+
+.darkmode  #quadrado1h {
+    border: white dotted;
+   background-color: rgba(215, 127, 127, 1);
+}
+
+.darkmode  #quadrado2h {
+    border: white dotted;
+    background-color: rgba(215, 127, 127, 1);
+}
+
+.darkmode  #quadrado3h {
+    border: white dotted;
+    background-color: rgba(215, 127, 127, 1);
+}
+
+.darkmode  #quadrado4h {
+    border: white dotted;
+    background-color: rgba(215, 127, 127, 1);
+}
+.darkmode #btncverdeh{
+    background-color: rgba(78, 114, 32, 1);
+}
+.darkmode #btncazulh {
+     background-color: rgba(113, 150, 203, 1);
+}
+
+.darkmode #btncrosah {
+    background-color: rgba(215, 127, 127, 1);
+}
+
+.darkmode #btncamareloh {
+    background-color:rgba(223, 193, 86, 1);
+}
+button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+
+   

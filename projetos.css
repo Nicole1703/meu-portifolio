@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mouse Memoirs", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("CEF29F\ \(4\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.titulop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#barrap {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 50px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+    gap: 1%;
+
+
+}
+
+#barra1p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#barra2p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#barrap a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#btncamarelop {
+    background-color: palegoldenrod;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+
+}
+
+#btncazulp {
+    background-color: rgb(188, 238, 221);
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#btncrosap {
+    background-color: pink;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#btncverdep {
+    background-color: lightgreen;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#formatatp {
+    font-size: 80px;
+}
+
+#barra1p {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#barra2p {
+    display: flex;
+}
+
+#quadrado1p {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+  
+  
+}
+
+#quadrado2p {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+#quadrado3p {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#b3{
+    position: relative;
+    bottom: 30px;
+}
+
+#quadrado4p {
+    background-color: white;
+    width: 300px;
+    height: 22vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+}
+
+#quadrado5p {
+    background-color: white;
+    width: 300px;
+    height: 22vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+#quadrado6p {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+}
+#git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+
+@media(max-width: 375px) {
+    body {
+        background-image: url("iPhone\ SE\ -\ 10\ \(1\).png");
+        background-size: cover;
+    }
+}
+.darkmode{
+    background-image: url(CEF29F\ \(15\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.darkmode #formatatp{
+    color: white;
+}
+.darkmode #btncverdep{
+    background-color: rgba(78, 114, 32, 1);
+}
+.darkmode #btncazulp {
+     background-color: rgba(113, 150, 203, 1);
+}
+
+.darkmode #btncrosap {
+    background-color: rgba(215, 127, 127, 1);
+}
+
+.darkmode #btncamarelop{
+    background-color:rgba(223, 193, 86, 1);
+}
+
+.darkmode #quadrado6p{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+
+.darkmode #quadrado2p{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+
+.darkmode #quadrado4p{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}

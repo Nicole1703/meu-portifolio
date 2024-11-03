@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mouse Memoirs", sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("CEF29F\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.tituloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+   
+
+}
+
+#formatatc {
+    font-size: 90px;
+    padding-right: 24%;
+}
+
+#barrac {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 50px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+    
+
+   
+}
+
+#barrac a {
+    text-decoration: none;
+    color: black;
+}
+
+#barrac button {
+    margin: 2%;
+}
+#barrac a {
+    font-size: 18px;
+    font-weight: 500;
+}
+#buttonc{
+    position: relative;
+    right: 430px;
+  
+}
+
+#btncamarelo {
+    background-color: palegoldenrod;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+
+}
+
+#btncazul {
+    background-color: rgb(188, 238, 221);
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#btncrosa {
+    background-color: pink;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#btncverde {
+    background-color: lightgreen;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+.divtudoc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    background-color: #fff;
+    margin-left: 26%;
+    border-radius: 50px;
+    border: 5px solid rgba(217, 217, 217, 1);
+    height: 500px;
+
+
+}
+
+#Nomec {
+    display: flex;
+    position: relative;
+    padding-top: 8%;
+    font-weight: 700;
+
+
+}
+
+#Emailc {
+    display: flex;
+    font-weight: 700;
+}
+
+#Telefonec {
+    display: flex;
+    font-weight: 700;
+}
+
+#Mensagem {
+    display: flex;
+    padding-bottom: 4%;
+    font-weight: 700;
+
+}
+
+.divtudoc input {
+    padding: auto;
+    position: relative;
+    right: 4%;
+    width: 300px;
+    border-radius: 50px;
+    height: 60px;
+    border-style: none;
+    background-color: rgba(217, 217, 217, 1);
+    
+
+}
+
+#pc {
+    position: relative;
+    right: 20%;
+    font-size: 30px;
+}
+
+#inputtm {
+    position: relative;
+    right: 8%;
+}
+
+#inputm {
+    position: relative;
+    right: 11%;
+    height:10vh;
+    background-image: url(pngwing.com\ \(1\)\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 230px;
+    background-size: 35px;
+}
+@media(max-width:1440px){
+    .divtudoc{
+        margin-left: 25vw;
+    }
+
+    #barra1h{
+        flex-wrap: wrap;
+    }
+
+    #barra2h{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 375px) {
+    body {
+        background-image: url("iPhone\ SE\ -\ 8\ \(1\).png");
+        background-size: cover;
+    }
+}
+
+.darkmode{
+    background-image: url(CEF29F\ \(13\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+ .darkmode #formatatc {
+    color: white;
+ }
+ .darkmode  .divtudoc{
+    border: black solid 4px;
+ }
+
+ .darkmode .divtudoc input{
+    border: dashed;
+ }
+
+ .darkmode #btncverde{
+    background-color: rgba(78, 114, 32, 1);
+}
+.darkmode #btncazul {
+     background-color: rgba(113, 150, 203, 1);
+}
+
+.darkmode #btncrosa {
+    background-color: rgba(215, 127, 127, 1);
+}
+
+.darkmode #btncamarelo{
+    background-color:rgba(223, 193, 86, 1);
+}
+button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}

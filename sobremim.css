@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mouse Memoirs", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("CEF29F\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 4%;
+
+}
+
+#btncamarelos {
+    background-color: palegoldenrod;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+
+}
+
+#btncazuls {
+    background-color: rgb(188, 238, 221);
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#btncrosas {
+    background-color: pink;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#btncverdes {
+    background-color: lightgreen;
+    border-style: none;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#barras {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 50px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+}
+
+#barras a {
+    text-decoration: none;
+    color: black;
+}
+
+#formatats {
+    font-size: 60px;
+
+}
+
+#letras {
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+
+}
+
+#letrast {
+    font-size: 30px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 60px;
+    border: dotted;
+    width: 200px;
+    text-align: center;
+    left: 850px;
+
+}
+
+#letras1 {
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+}
+
+#barras a {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(min-width: 1440px) {
+    .titulos {
+        padding-top: 0;
+    }
+
+    #letrast {
+        left: 690px;
+        bottom: 79px;
+    }
+
+    #letras {
+        bottom: 90px;
+    }
+
+    #letras1 {
+        bottom: 100px;
+    }
+
+}
+
+@media(min-width: 1920px) {
+    .titulos {
+        padding-top: 4%;
+    }
+
+    #letrast {
+        left: 850px;
+        bottom: 79px;
+    }
+
+    #letras {
+        bottom: 90px;
+    }
+
+    #letras1 {
+        bottom: 100px;
+    }
+
+}
+
+
+@media(max-width: 375px) {
+    body {
+        background-image: url("FUNDOs.png");
+        background-size: cover;
+    }
+}
+.darkmode{
+    background-image: url(CEF29F\ \(12\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.darkmode #letras1{
+    bottom: 80px;
+}
+
+.darkmode #letras{
+    bottom: 60px;
+}
+
+.darkmode #letrast{
+    bottom: 40px;
+}
+.darkmode #barras{
+    top: 30px;
+    position: relative;
+}
+
+.darkmode #formatats{
+    top: 30px;
+    position: relative;
+}
+button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
